@@ -1,0 +1,23 @@
+{
+    "name": "avoid",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc && vite build",
+        "preview": "vite preview",
+        "lint:style": "eslint --fix src/**/*.ts",
+        "lint:formatting": "prettier --write src/**/*.ts"
+    },
+    "devDependencies": {
+        "@eslint/js": "^9.14.0",
+        "eslint": "^9.14.0",
+        "eslint-config-prettier": "^9.1.0",
+        "globals": "^15.12.0",
+        "prettier": "^3.3.3",
+        "typescript": "~5.6.2",
+        "typescript-eslint": "^8.13.0",
+        "vite": "^5.4.10"
+    }
+}
