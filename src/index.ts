@@ -1,1 +1,3 @@
-console.log("hello world");
+import kaplay from "kaplay";
+
+kaplay();
